@@ -1,0 +1,218 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Poppins', sans-serif; */
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #646464;
+    padding: 20px;
+}
+
+.btn {
+    width: auto;
+    height: 32px;
+    font-size: 16px;
+    line-height: 16px;
+    background-color: #37806B;
+    color: #fff !important;
+    font-weight: bold;
+    border-radius: 15px 0px;
+}
+
+h1 {
+    font-size: 72px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.block-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bg-dotted-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 213px;
+    height: 150px;
+    background: url("../img/bgdotted.png");
+}
+
+.service .bg-dotted-img-Right {
+    right: 0 !important;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #646464;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #212121;
+}
+
+
+/*Second*/
+
+.single-box {
+    position: relative;
+    padding: 30px;
+    margin: 10px;
+    margin-top: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    -webkit-box-shadow: 0px 8px 20px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 8px 20px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 8px 20px 0px rgba(34, 60, 80, 0.2);
+}
+
+.single-row {
+    background: brown;
+    color: #fff;
+}
+
+.carousel-indicators {
+    justify-content: flex-end;
+    bottom: none;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 360px;
+    padding: 10px;
+    background-image: url("../img/lArrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-box-shadow: 0px 8px 20px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 8px 20px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 8px 20px 0px rgba(34, 60, 80, 0.2);
+}
+
+.carousel-indicators li.active {
+    background-color: #37806B;
+    background-image: url("../img/rArrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-box-shadow: 0px 8px 20px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 8px 20px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 8px 20px 0px rgba(34, 60, 80, 0.2);
+}
+
+.carousel-indicators {
+    top: -30px;
+    right: 0;
+}
+
+.img-text {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.img-area span {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.offer .block-img h2 {
+    margin: 40px 0;
+}
+
+.complatedWork {
+    background: #F8F8F8;
+}
+
+.child-box {
+    padding: 40px 10px;
+    background: #fff;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.child-box h4 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.single-box .img-card {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    background-image: url('../img/louis.png');
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-box-shadow: 0px 8px 20px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 8px 20px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 8px 20px 0px rgba(34, 60, 80, 0.2);
+    background-position: center;
+    background-size: cover;
+    left: -70px;
+}
+
+.single-box .card-2 {
+    background-image: url('../img/Rekha.png');
+}
+
+.img-area {
+    position: relative;
+}
+
+.testimonials .img-text {
+    margin-left: 30px;
+}
+
+.quotes {
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/quotes.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    background-size: contain;
+}
+
+.news {
+    background: #F8F8F8;
+}
+
+.news h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.signUp h2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 8px;
+}
+
+.signUp h2::after {
+    content: '';
+    border-bottom: 1px solid #C4C4C4;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.input-group .btn,
+input {
+    height: 40px;
+}
+
+.footer {
+    background: #F8F8F8;
+}
