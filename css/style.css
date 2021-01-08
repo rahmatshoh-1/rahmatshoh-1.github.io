@@ -34,15 +34,13 @@ h1 {
 }
 
 .bg-dotted-img {
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 213px;
     height: 150px;
     background: url("../img/bgdotted.png");
+    margin-top: 30px;
 }
 
-.service .bg-dotted-img-Right {
+.bg-dotted-img-Right {
     right: 0 !important;
 }
 
@@ -120,7 +118,6 @@ h2 {
 .img-area span {
     font-size: 24px;
     font-weight: 700;
-    margin-left: 10px;
 }
 
 .offer .block-img h2 {
@@ -211,6 +208,17 @@ h2 {
 .input-group .btn,
 input {
     height: 40px;
+}
+
+.header,
+.service,
+.about,
+.successful,
+.complatedWork,
+.testimonials,
+.news,
+.footer {
+    position: relative;
 }
 
 .footer {
