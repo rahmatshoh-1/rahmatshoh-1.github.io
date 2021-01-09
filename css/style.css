@@ -135,7 +135,8 @@
         border-bottom-right-radius: 50px;
         border-top-left-radius: 50px;
         position: relative;
-        margin-top: 10px;
+        margin: 40px;
+       
     }
     
     .child-box:nth-child(1)::after {
